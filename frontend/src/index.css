@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1c1917;
+  background-color: #f4efe7;
+  background:
+    radial-gradient(circle at top left, rgba(225, 153, 79, 0.22), transparent 24%),
+    radial-gradient(circle at 85% 12%, rgba(28, 62, 74, 0.12), transparent 22%),
+    linear-gradient(180deg, #f8f2ea 0%, #f1e7da 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-app: #f4efe7;
+  --bg-surface: rgba(255, 252, 247, 0.82);
+  --bg-surface-strong: rgba(255, 252, 247, 0.94);
+  --bg-sidebar: #13262f;
+  --bg-sidebar-soft: rgba(255, 255, 255, 0.06);
+  --border-soft: rgba(59, 43, 24, 0.12);
+  --text-strong: #18130f;
+  --text-body: #463a32;
+  --text-muted: #76675b;
+  --brand-gold: #c97b36;
+  --brand-gold-deep: #9f5921;
+  --brand-ink: #1f3c48;
+  --brand-mint: #dfeee5;
+  --brand-rose: #f4ddd7;
+  --shadow-soft: 0 20px 45px rgba(78, 54, 31, 0.1);
+  --shadow-strong: 0 28px 70px rgba(21, 31, 40, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--text-body);
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: auto;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  top: -120px;
+  right: -60px;
+  width: 360px;
+  height: 360px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(201, 123, 54, 0.18), transparent 70%);
+}
+
+body::after {
+  left: -100px;
+  bottom: -120px;
+  width: 340px;
+  height: 340px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(31, 60, 72, 0.14), transparent 72%);
+}
