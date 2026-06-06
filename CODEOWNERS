@@ -1,0 +1,15 @@
+* @hamidmalikzada-afk
+
+# Frontend
+/frontend/** @hamidmalikzada-afk
+
+# Backend
+/backend/** @hamidmalikzada-afk
+
+# Database
+/database/** @hamidmalikzada-afk
+
+# DevOps
+/.github/** @hamidmalikzada-afk
+/terraform/** @hamidmalikzada-afk
+/docker-compose.yml @hamidmalikzada-afk
